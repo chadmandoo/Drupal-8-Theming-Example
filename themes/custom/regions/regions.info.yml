@@ -1,0 +1,18 @@
+name: regions
+type: theme
+description: Regions theme
+package: themes
+core: 8.x
+screenshot: screenshot.png
+
+base theme: classy
+
+libraries:
+  - regions/global
+
+regions:
+    header: Header
+    content: Main Content
+    sidebar_first: Sidebar First
+    post_content: Post Content
+    footer: Footer

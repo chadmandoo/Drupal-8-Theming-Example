@@ -1,0 +1,36 @@
+<div class="layout-container">
+    <header class="header clearfix">
+        <span>Header Region</span>
+        {{ page.header }}
+    </header>
+
+    <main class="clearfix">
+        <div class="main-wrapper col-md-8">
+            <span>Main Content Region</span>
+            {{ page.content }}
+        </div>
+
+        {% if page.sidebar_first %}
+        <section class="sidebar col-md-4">
+            <span>Sidebar Region</span>
+
+                {{ page.sidebar_first }}
+        </section>
+        {% endif %}
+
+    </main>
+
+    {% if page.post_content %}
+    <section class="post-content">
+        <span>Post Content Region</span>
+        {{ page.post_content }}
+    </section>
+    {% endif %}
+
+    {% if page.footer %}
+    <footer class="footer">
+        <span>Footer Region</span>
+        {{ page.footer }}
+    </footer>
+    {% endif %}
+</div>

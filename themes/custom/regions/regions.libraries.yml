@@ -1,0 +1,13 @@
+global:
+  version: 1.x
+  css:
+    theme:
+      vendor/bootstrap/css/bootstrap.min.css: {}
+      vendor/font-awesome/css/font-awesome.min.css: {}
+      css/app.css: {}
+      css/print.css: { media: print }
+  js:
+    vendor/bootstrap/js/bootstrap.min.js: {}
+    js/app.js: {}
+  dependencies:
+    - core/jquery
