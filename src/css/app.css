@@ -19,6 +19,23 @@ header .menu li {
     margin-right: 15px;
 }
 
+header .menu li:hover{
+    background: none;
+}
+
+header .menu a{
+    color: #FFF;
+}
+
+header .menu a.is-active{
+    color: #18bc9c;
+}
+
+header .menu a:hover{
+    color: #18bc9c;
+    text-decoration: none;
+}
+
 main .main-wrapper{
     background: #18bc9c;
     min-height: 500px !important;
@@ -32,6 +49,12 @@ main .sidebar{
     min-height: 500px;
     color: #000;
     border: 1px solid #DC143C;
+}
+
+ul.tabs{
+    background: #FFF;
+    border: 1px solid black;
+    margin: 0;
 }
 
 .post-content{
